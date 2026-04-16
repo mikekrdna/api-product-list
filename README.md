@@ -42,3 +42,5 @@ Para poner en marcha este proyecto en tu equipo local, sigue estos pasos:
 
 ### 4. Eliminar producto (DELETE)
 ![Eliminar Productos](./assets/delete-request.png)
+
+todo actualizado, evidencias adjuntas de los comandos segun lo solicitado.
