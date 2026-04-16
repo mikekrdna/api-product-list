@@ -20,16 +20,16 @@ Para poner en marcha este proyecto en tu equipo local, sigue estos pasos:
 
    node index.js
 
-3. ## 🔗 Endpoints de la API
+3. **🔗 Endpoints de la API**
 
 | Acción | Método | Ruta (Endpoint) | Descripción |
 | :--- | :---: | :--- | :--- |
-| **Listar productos** | `GET` | `/api` | [cite_start]Obtiene la lista completa de productos[cite: 723]. |
-| **Crear producto** | `POST` | `/api` | [cite_start]Agrega un nuevo producto al catálogo[cite: 724]. |
-| **Actualizar producto** | `PUT` | `/api/:id` | [cite_start]Modifica un producto existente usando su ID[cite: 725]. |
-| **Eliminar producto** | `DELETE` | `/api/:id` | [cite_start]Borra un producto del sistema usando su ID[cite: 726]. |
-
-4. **pruebas de funcionamiento**
+| **Listar productos** | `GET` | `/api` | Obtiene la lista completa de productos. |
+| **Crear producto** | `POST` | `/api` | Agrega un nuevo producto al catálogo. |
+| **Actualizar producto** | `PUT` | `/api/:id` | Modifica un producto existente usando su ID. |
+| **Eliminar producto** | `DELETE` | `/api/:id` | Borra un producto del sistema usando su ID. |
+##
+4. ## pruebas de funcionamiento
 
 ### 1. Listar productos (GET)
 ![Listar Productos](./assets/get-request.png)
