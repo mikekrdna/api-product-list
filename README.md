@@ -9,16 +9,16 @@ Para poner en marcha este proyecto en tu equipo local, sigue estos pasos:
 1. **Instalar dependencias**:
    Escribe el siguiente comando en tu terminal para instalar los módulos necesarios después de descargar la carpeta:
 
-   bash
+  -bash
 
-   npm install
+  -npm install
 
 2. **iniciar el servidor**:  
    una vez instaladas las dependencias inicia el servidor con los siguientes comandos:
 
-   bash
+  -bash
 
-   node index.js
+  -node index.js
 
 3. **🔗 Endpoints de la API**
 
@@ -26,10 +26,10 @@ Para poner en marcha este proyecto en tu equipo local, sigue estos pasos:
 | :--- | :---: | :--- | :--- |
 | **Listar productos** | `GET` | `/api` | Obtiene la lista completa de productos. |
 | **Crear producto** | `POST` | `/api` | Agrega un nuevo producto al catálogo. |
-| **Actualizar producto** | `PUT` | `/api/:id` | Modifica un producto existente usando su ID. |
-| **Eliminar producto** | `DELETE` | `/api/:id` | Borra un producto del sistema usando su ID. |
-##
-4. ## pruebas de funcionamiento
+| **Actualizar producto** | `PUT` | `/api/id` | Modifica un producto existente usando su ID. |
+| **Eliminar producto** | `DELETE` | `/api/id` | Borra un producto del sistema usando su ID. |
+
+### 4. pruebas de funcionamiento
 
 ### 1. Listar productos (GET)
 ![Listar Productos](./assets/get-request.png)
