@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = require('./routes');
 const app = express()
+const PORT = 3000
 app.use(express.json())
-const PORT=3000
+app.use('/api', routes)
 app.listen(PORT, () => { console.log("servidor listo") })
-app.use('/api', routes )
